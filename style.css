@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    font-family:"Bai Jamjuree", sans-serif;
+    background-color: #FFFAE6;
+   
+
+}
+
+/* <!-- <-- navbar start --> */
+.section {
+    height: 100vh;
+    overflow-y: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.a-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.firstpart {
+    display: flex;
+    align-items: center;
+}
+
+
+.secondpart {
+    display: flex;
+}
+
+.secondpart a {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.secondpart a:hover {
+    background-color: #FF9F66;
+    color: white;
+}
+
+.secondpart a.active {
+    background-color: #FF9F66;
+    color: white;
+}
+
+/* <----/* navbar end *   / ----> */
+
+/* <----- hero section start ----> */
+.hero {
+    position: relative;
+}
+
+.left {
+    float: left;
+    margin-left: 300px;
+}
+
+.right {
+    float: right;
+    margin-right: 200px;
+}
+
+.img-container {
+    position: relative;
+    height: 555px;
+    width: 400px;
+    border: black solid 5px;
+}
+
+.img-container img {
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.text-container {
+    height: 10px;
+    width: auto;
+    position: absolute;
+    right: 65%;
+    max-height: 3em;
+
+}
+
+.text-container h1 {
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+.front-end {
+    font-weight: 700;
+    background-image: linear-gradient(to right, #FF9F66, transparent);
+    padding: 2px;
+}
+
+.text-container p {
+    font-size: 25px;
+}
+
+.arrow {
+    position: absolute;
+    left: 600px;
+    transform: rotate(40deg);
+}
+
+.random-lines {
+    position: relative;
+    height: 200px;
+    left: 30%;
+    top: 450px;
+    transform: rotate(10deg);
+}
+
+/* <----- hero section end ----> */
+
+/* <----- introduction section start ----> */
+.introduction {
+    height: auto;
+    width: 100%;
+    background-color: #FF9F66;
+}
+
+.cropped-profile {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.introduction img {
+    display: block;
+    border-radius: 50%;
+    height: 450px;
+    margin-bottom: 0px;
+    
+}
+
+.text-part {
+    display: flex;
+    justify-content: center;
+}
+
+.text-part h2 {
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.text-part2 p {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.horizontal-line {
+    border:#FFFAE6 6px dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    display: flex;
+
+}
+/* <----- introduction section end ----> */
+
+/* <----- skills section start ----> */
+
+
+.skills-presentation {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding: 0px 350px 0px 350px;
+    row-gap: 20px;
+}
+
+.skills {
+    background-color: #FF5F00;
+    padding: 50px;
+}
+
+.skills-presentation p {
+    display: flex;
+    align-items: center;
+    padding-top: 20%;
+}
+
+
+
+/* <----- skills section end ----> */
