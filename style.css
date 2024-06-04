@@ -463,6 +463,15 @@ button {
             height: 400px;
         }
         
+        
+        .firstpart a {
+            font-size: 10px;
+        
+        }
+
+        .secondpart a {
+            font-size: 10px;
+        }
 
         
     }
@@ -482,6 +491,15 @@ button {
 
         .cropped-profile img {
             height: 300px;
+        }
+
+        .firstpart a {
+            font-size: 8px;
+        
+        }
+
+        .secondpart a {
+            font-size: 8px;
         }
     }
 }
